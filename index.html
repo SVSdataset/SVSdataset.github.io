@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Street View Sequences</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="shortcut icon" type="image/png" href="images/data.jpg">
+
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>SVS</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-medium w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#video" class="w3-bar-item w3-button">Video</a>
+      <a href="#video" class="w3-bar-item w3-button">Examples</a>
+      <a href="#video" class="w3-bar-item w3-button">Download</a>
+      <a href="#citation" class="w3-bar-item w3-button">Citation</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="images/nicelyAlignedSequencesSV-1.png" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>SVS</b></span> <span class="w3-hide-small w3-text-light-grey">Street View Sequences</span></h1>
+  </div>
+
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Welcome to the SVS dataset</h3>
+    <p> SVS is a large urban dataset for place recognition, change detection and prediction from image sequences taking from different viewpoints and times. This dataset can be used to train and test both sequential and single image algorithms for place recognition and change prediction. The dataset consist of more than 1.5 million Google Street View images acquired from 10 different cities between 2007 and 2018 with high-quality ground-truth geo-locations. The large size of the dataset enables training of deep learning methods. 
+    </p>
+  </div>
+
+  <!-- Video Section -->
+  <div class="w3-container w3-padding-32" id="video">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Learn more about SVS</h3>
+  </div>
+
+ <div class="w3-row-padding">
+  <div class="w3-col l12 w3-margin-bottom">
+    <div class="w3-display-container">
+  <video width="100%" controls loop>
+    <source src="images/SVS dataset presentation.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+  </div>
+</div>
+
+  <!-- Examples Section -->
+  <div class="w3-container w3-padding-32" id="Example">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Want to see some images?</h3>
+      <p> The examples below shows how different places can appear. The examples illustrate that the SVS dataset includes seasonal changes, different weather conditions, dynamic changes, structural changes and viewpoint changes. Furthermore, the diverse enviroment from the 10 chosen cities ensures high generalization. </p>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">London</div>
+        <img src="examples/london2in1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Paris</div>
+        <img src="examples/paris2in1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Madrid</div>
+        <img src="examples/madrid2in1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Boston</div>
+        <img src="examples/boston2in1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">San Francisco</div>
+        <img src="examples/sanFran2in1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Mexico City</div>
+        <img src="examples/mexico2in1.png" alt="House" style="width:100%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Rio de Janeiro</div>
+        <img src="examples/rio2in1.png" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Bangkok</div>
+        <img src="examples/bangkok2in1.png" alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Tokyo</div>
+        <img src="examples/tokyo2in1.png"alt="House" style="width:99%">
+      </div>
+    </div>
+    <div class="w3-col l6 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Sydney</div>
+        <img src="examples/sydney2in1.png" alt="House" style="width:99%">
+      </div>
+    </div>
+  </div>
+
+  <!-- Download Section -->
+
+  <div class="w3-container w3-padding-32" id="download">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Download</h3>
+  <p> We have divided the full dataset into 10 smaller datasets based on where the data stems from. These can be downloaded on the links below. We also provided a link for downloading all the data at once. </p>
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-col l6 m6 w3-margin-bottom">
+<ul>
+  <li><a href="#downloadLondon">London </a></li>
+  <li><a href="#downloadParis">Paris</a></li>
+  <li><a href="#downloadMadrid">Madrid</a></li>
+  <li><a href="#downloadBoston">Boston</a></li>
+  <li><a href="#downloadSanFran">San Francisco</a></li>
+</ul>
+</div>
+  <div class="w3-col l6 m6 w3-margin-bottom">
+<ul>
+  <li><a href="#downloadMexico">Mexico City </a></li>
+  <li><a href="#downloadRio">Rio de Janeiro</a></li>
+  <li><a href="#downloadSydney">Sydney</a></li>
+  <li><a href="#downloadBangkok">Bangkok</a></li>
+  <li><a href="#downloadTokyo">Tokyo</a></li>
+</ul>
+</div>
+</div>
+
+<div class="w3-row-padding">
+  <div class="w3-col l12 m12 w3-margin-bottom">
+<ul>
+  <li><center><a href="#downloadAll">Download all</a></center></li>
+</ul>
+</div>
+</div>
+
+    <!-- How-to-cite Section -->
+  <div class="w3-container w3-padding-32" id="Citation">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Citation</h3>
+      <p> When using this dataset in your research, we will be happy if you cite us! </p>
+      <p> For the raw dataset, please cite: </p>
+      <p>
+      @ARTICLE{Warburg2018IJRR,  <br>
+        &nbsp; author = {Frederik Warburg and Javier Civera}, <br>
+        &nbsp; title = {Street View Sequences: A dataset for lifelong place recognition with viewpoint and dynamic changes}, <br>
+        &nbsp; journal = {International Journal of Robotics Research (IJRR)},<br>
+        &nbsp; year = {2018} <br>
+      } </p>
+  </div>
+</div>
+
+</body>
+</html>
